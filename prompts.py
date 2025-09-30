@@ -7,3 +7,4 @@ base = (
 )
 return base + f"Contexto de rol: {role_instructions}"
 def collapse_history(history: List[Dict[str, str]]) -> List[Dict[str, str]]:
+return history
